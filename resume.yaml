@@ -1,0 +1,139 @@
+name:
+  first: Sueder
+  last: Morais
+
+title: Software Engineer — Platform & Architecture
+tagline: Portfolio 2026
+
+contact:
+  email: sueder@dreuse.dev
+  linkedin: sueder-morais
+
+role:
+  - "Platform & API Architecture"
+  - "Backend Systems"
+
+location: Sweden
+
+about:
+  - >-
+    Software engineer with 14+ years building backend platforms, APIs, and
+    distributed systems across cybersecurity, automotive, banking, and
+    entertainment. Built an API platform from scratch that grew customer
+    adoption from near-zero to over 70% in two years — defining the technical
+    strategy, internal frameworks, and infrastructure that made it possible.
+  - >-
+    Deep expertise in Scala, Java, Python, and Go with a track record of
+    owning cross-cutting technical decisions: API standards, gateway
+    infrastructure, developer tooling, and cloud-native architecture.
+    Comfortable operating at the intersection of system design, team
+    enablement, and product impact.
+
+signature: curriculum vitae
+
+experience:
+  - company: Recorded Future
+    period: 2021 — Present
+    title: Senior Software Engineer · Platform
+    description: >-
+      Platform engineer in Auth & Service Enablement, owning the full lifecycle
+      of customer-facing APIs — design, implementation, infrastructure, and
+      developer experience. Built the team's API platform from the ground up,
+      driving adoption from near-zero to over 70% within two years.
+    highlights:
+      - Built and owned an API platform serving thousands of enterprise customers, making architecture decisions around latency, consistency, and data freshness
+      - Designed an internal API framework (Scala 3, http4s, cats-effect, fs2) that standardized API development across the organization
+      - Designed and built a TAXII 2.1 server for STIX-based threat intelligence sharing, balancing protocol compliance with performance at scale
+      - Owned API gateway infrastructure (APISIX), HashiCorp Vault policies, Kubernetes configs, and CI/CD pipelines end-to-end
+      - Created MCP-based investigation agents during internal hackathon (Python, AI agents)
+
+  - company: WirelessCar
+    period: Jan — Jun 2021
+    title: Senior Software Engineer · Consultant
+    description: >-
+      MasterData Team — built integrations and APIs ingesting, parsing, and
+      exposing vehicle telemetry and user data to internal and external
+      consumers.
+    highlights:
+      - Designed serverless data pipelines processing high-volume vehicle telemetry streams on AWS
+      - Built RESTful APIs (Lambda, API Gateway, DynamoDB) enabling cross-team data consumption
+
+  - company: CEVT
+    period: 2019 — 2020
+    title: Senior Software Engineer
+    description: >-
+      Cloud integrations for vehicle infotainment telemetry and APIs enabling
+      remote control of connected vehicles.
+    highlights:
+      - Designed multi-cloud architecture spanning AWS, GCP, and Azure, evaluating trade-offs between vendor lock-in, cost, and capabilities
+      - Implemented MQTT-based real-time vehicle-to-cloud communication
+      - Built serverless microservices for telemetry ingestion and processing at scale
+
+  - company: LOGO IT
+    period: 2017 — 2018
+    title: Software Engineer → Lead Engineer
+    description: >-
+      Progressed from engineer to lead, overseeing a team across three
+      concurrent products: video streaming, state vehicle registration,
+      and credit card benefits.
+    highlights:
+      - Led a team of engineers across three product lines, owning technical direction and delivery
+      - Designed event-driven microservice architectures with Kafka for inter-service communication
+      - Delivered full-stack solutions combining Java/Python backends with React frontends
+
+  - company: Tarea Management
+    period: 2013 — 2017
+    title: Software Developer
+    description: >-
+      Built systems for the Brazilian government — including Phoenix, a
+      contract management platform for export promotion with cost monitoring.
+    highlights:
+      - Designed microservice-based architectures for government-scale systems
+      - Built enterprise Java applications integrated with Oracle BPM workflows
+
+  - company: Stefanini
+    period: 2012 — 2013
+    title: QA Engineer
+    description: >-
+      Automated testing of banking applications for major Brazilian financial
+      institutions (Caixa, Sicoob).
+    highlights:
+      - Built automated test suites for critical banking workflows
+
+  - company: RSI (Keego)
+    period: 2010 — 2012
+    title: QA Engineer
+    description: >-
+      Test automation for government clients including Caixa and ANATEL.
+    highlights:
+      - Built end-to-end test automation frameworks
+
+skills:
+  - category: Languages
+    items: [Scala, Java, Python, Go, TypeScript, SQL]
+
+  - category: Platform & Infrastructure
+    items: [AWS, Kubernetes, Docker, API Gateways (APISIX), HashiCorp Vault, CI/CD Pipelines]
+
+  - category: Data & Messaging
+    items: [PostgreSQL, MongoDB, Elasticsearch, Kafka, RabbitMQ]
+
+  - category: Architecture
+    items: [API Platform Design, Distributed Systems, Microservices, Event-Driven, Serverless, System Design]
+
+  - category: Craft
+    items: [Functional Programming, Concurrency, Technical Strategy, Developer Tooling]
+
+education:
+  - institution: Universidade Católica de Brasília
+    degree: Information Systems
+    period: 2016 — 2018
+    note: Relocated to Sweden before completion.
+
+  - institution: Senac University
+    degree: Information Technology Management
+    period: 2010 — 2013
+
+footer:
+  left: END OF A-SIDE · FLIP TO CONTACT
+  right: © 2026 · sueder.morais
