@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Sueder Morais</title>
-<meta name="description" content="Senior software engineer. Backend services, distributed systems and platform engineering on the JVM, Go and Python, on Kubernetes and AWS.">
+<meta name="description" content="Senior software engineer focused on system design, distributed systems, developer platforms and AI infrastructure.">
 <meta property="og:title" content="Sueder Morais · Senior Software Engineer">
-<meta property="og:description" content="Backend services, distributed systems and platform engineering.">
+<meta property="og:description" content="System design, distributed systems, developer platforms and AI infrastructure.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dreuse.github.io/">
+<meta property="og:url" content="https://dreuse.dev/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230e2a3f'/%3E%3Crect x='6' y='9' width='14' height='3' rx='1.5' fill='%2373b3dd'/%3E%3Crect x='11' y='15' width='15' height='3' rx='1.5' fill='%23ffffff'/%3E%3Crect x='9' y='21' width='8' height='3' rx='1.5' fill='%2373b3dd'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -163,7 +163,7 @@
   .roles { display: flex; flex-direction: column; gap: 52px; }
   .role header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 4px 24px; margin-bottom: 4px; }
   .role h3 { font: 700 24px/1.25 var(--display); letter-spacing: -0.015em; margin: 0; }
-  .role time { font: 400 13px/1.5 var(--mono); color: var(--ink-3); font-variant-numeric: tabular-nums; }
+  .role .dates { font: 400 13px/1.5 var(--mono); color: var(--ink-3); font-variant-numeric: tabular-nums; }
   .role .title { color: var(--ink-2); margin: 0 0 16px; font-size: 16px; }
   .role ul { list-style: none; margin: 0; padding: 0; max-width: var(--measure); display: flex; flex-direction: column; gap: 10px; }
   .role li { position: relative; padding-left: 22px; }
@@ -173,7 +173,7 @@
   .earlier li::before { display: none; }
   .earlier b { font-weight: 600; }
   .earlier .note { grid-column: 1; color: var(--ink-3); font-size: 14px; }
-  .earlier time { grid-row: 1; grid-column: 2; }
+  .earlier .dates { grid-row: 1; grid-column: 2; }
 
   .stack { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 36px 40px; margin: 0; }
   .stack div { border-top: 1px solid var(--ink); padding-top: 12px; }
@@ -212,7 +212,7 @@
     .axis { grid-template-columns: minmax(0, 1fr) 52px; }
     .axis > span:first-child { display: none; }
     .row { grid-template-columns: minmax(0, 1fr) 52px; gap: 6px 12px; }
-    .row .who { grid-column: 1 / -1; flex-direction: row; gap: 8px; align-items: baseline; }
+    .row .who { grid-column: 1 / -1; flex-flow: row wrap; gap: 2px 8px; align-items: baseline; }
     .stack { grid-template-columns: 1fr; gap: 28px; }
     .repos a { grid-template-columns: minmax(0, 1fr) auto; gap: 4px 16px; }
     .repos .what { grid-column: 1 / -1; grid-row: 2; }
@@ -236,7 +236,7 @@
   <header class="hero">
     <div>
       <h1>Sueder Morais</h1>
-      <p class="pitch">Senior software engineer. I build <strong>backend services, distributed systems</strong> and the <strong>platforms they run on</strong>.</p>
+      <p class="pitch">Senior software engineer. I design <strong>distributed systems</strong> and build <strong>developer platforms and AI infrastructure</strong>.</p>
       <div class="cta">
         <a class="download" href="sueder-morais-cv.pdf" download>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>
@@ -249,8 +249,8 @@
       </div>
     </div>
     <dl class="facts">
-      <div><dt>Based in</dt><dd>Sweden or Brazil</dd></div>
-      <div><dt>Works</dt><dd>Remote</dd></div>
+      <div><dt>Based in</dt><dd>Gothenburg, Sweden</dd></div>
+      <div><dt>Relocation</dt><dd>Open to relocating</dd></div>
       <div><dt>Languages</dt><dd>Scala, Java, Kotlin, Go, Python</dd></div>
       <div><dt>Runs on</dt><dd>Kubernetes, AWS</dd></div>
       <div><dt>Experience</dt><dd>15+ years</dd></div>
@@ -261,7 +261,7 @@
   <section class="trace" aria-labelledby="trace-title">
     <h2 id="trace-title">Career trace<span>2010 → now, to scale</span></h2>
     <div>
-    <div class="waterfall" role="img" aria-label="Timeline of roles from 2010 to now, drawn to scale. Recorded Future from July 2021 to now; WirelessCar January to July 2021; Zeekr Technology Europe 2019 to 2020; Logo IT 2017 to 2018; Tarea Management 2013 to 2017; Stefanini 2012 to 2013; RSI Informática 2010 to 2012.">
+    <div class="waterfall" role="img" aria-label="Timeline of roles from 2010 to now, drawn to scale. Recorded Future from July 2021 to now; WirelessCar January to July 2021; Zeekr (Geely Group) 2019 to 2020; Logo IT 2017 to 2018; Tarea Management 2013 to 2017; Stefanini 2012 to 2013; RSI Informática 2010 to 2012.">
       <div class="axis" aria-hidden="true">
         <span>role</span>
         <div class="ticks">
@@ -280,7 +280,7 @@
         <span class="dur">7m</span>
       </div>
       <div class="row contract" aria-hidden="true">
-        <div class="who"><b>Zeekr Technology Europe</b><i>Consultant</i></div>
+        <div class="who"><b>Zeekr (Geely Group)</b><i>Consultant</i></div>
         <div class="lane"><div class="span" style="--s:108;--e:132"></div></div>
         <span class="dur">2y</span>
       </div>
@@ -312,8 +312,8 @@
   <section id="about" aria-labelledby="about-title">
     <h2 id="about-title">About</h2>
     <div class="prose">
-      <p>I have spent more than 15 years designing, building and running software in Brazil and Sweden. Most of it has been backend work on the JVM: APIs, services that talk to each other over Kafka, and the pipelines and clusters that ship them.</p>
-      <p>My work covers the full lifecycle, from design to production operations. I also apply the same discipline to AI-assisted development: agentic workflows, LLM-based developer tooling, and coding agents that work from clear tasks, automated tests and verification steps.</p>
+      <p>I design distributed systems and the platforms they run on. Over 15 years in Brazil and Sweden, I have worked across API design, event-driven services and cloud infrastructure, taking services from architecture and implementation through deployment and production operations.</p>
+      <p>My recent work includes Model Context Protocol (MCP) infrastructure and developer tools for agentic workflows. I focus on secure access to tools and data, observability, and making automated checks part of how code gets reviewed and shipped.</p>
     </div>
   </section>
 
@@ -321,45 +321,42 @@
     <h2 id="exp-title">Experience</h2>
     <div class="roles">
       <article class="role">
-        <header><h3>Recorded Future</h3><time>Jul 2021 – now</time></header>
-        <p class="title">Senior Software Engineer · Gothenburg, Sweden · threat-intelligence platform</p>
+        <header><h3>Recorded Future</h3><span class="dates">Jul 2021 – Present</span></header>
+        <p class="title">Senior Software Engineer · Gothenburg, Sweden · a Mastercard company</p>
         <ul>
-          <li>Build and maintain public REST APIs for IP, domain, hash, URL, vulnerability and malware intelligence in Scala, with OpenAPI documentation.</li>
-          <li>Build and maintain TAXII 1.1 and 2.1 servers that deliver STIX threat-intelligence feeds to customer security tools.</li>
-          <li>Moved services to functional Scala (http4s, Tapir, cats-effect, fs2) and from Akka to Apache Pekko. Added OpenTelemetry tracing.</li>
-          <li>Use Apache Kafka for event streaming between services.</li>
-          <li>Ship services end to end: Docker, GitHub Actions pipelines, Helm charts deployed with Argo CD on Kubernetes, API gateway configuration, Vault policies and Chef.</li>
-          <li>Hardened CI by pinning third-party actions to commit SHAs and fixing code-scanning findings.</li>
-          <li>Build internal AI developer tools, including Model Context Protocol (MCP) servers in Python, retrieval-augmented generation (RAG) and model fine-tuning.</li>
+          <li>Design and maintain distributed Scala services and customer-facing threat intelligence APIs, including REST with OpenAPI, GraphQL, and TAXII 1.1 and 2.1.</li>
+          <li>Help define service boundaries for Kubernetes migrations, reducing direct database coupling while preserving existing API contracts.</li>
+          <li>Help build and operate Recorded Future’s MCP platform, which serves 100+ tools and handles 25,000+ requests per week.</li>
+          <li>Design authentication, authorization and data-access boundaries for API and MCP integrations. Hardened CI by pinning third-party actions and resolving code-scanning findings.</li>
+          <li>Own service delivery from code to production using Docker, GitHub Actions, Helm and Argo CD on Kubernetes, including API gateway configuration and Vault policies.</li>
+          <li>Build event-driven services with Kafka, migrate Scala services from Akka to Apache Pekko, and instrument them with OpenTelemetry.</li>
+          <li>Build internal AI developer tools, including Python MCP servers and a Grafana log integration. Use coding agents with automated tests, review and explicit verification.</li>
         </ul>
       </article>
       <article class="role">
-        <header><h3>WirelessCar</h3><time>Jan 2021 – Jul 2021</time></header>
+        <header><h3>WirelessCar</h3><span class="dates">Jan 2021 – Jul 2021</span></header>
         <p class="title">Software Engineer Consultant · Gothenburg, Sweden · contract</p>
         <ul>
-          <li>Built backend services in Java and Spring on AWS.</li>
-          <li>Built serverless services with AWS Lambda and Amazon DynamoDB.</li>
+          <li>Built Java and Spring backend services for connected-vehicle systems on AWS, including serverless services with Lambda and DynamoDB.</li>
           <li>Deployed containerised services to Amazon ECS and Amazon EKS.</li>
         </ul>
       </article>
       <article class="role">
-        <header><h3>Zeekr Technology Europe</h3><time>Jan 2019 – Dec 2020</time></header>
+        <header><h3>Zeekr (Geely Group)</h3><span class="dates">Jan 2019 – Dec 2020</span></header>
         <p class="title">Software Engineer Consultant · Gothenburg, Sweden · contract</p>
         <ul>
-          <li>Built backend services in Java and Spring on AWS.</li>
-          <li>Used Apache Kafka for event streaming between services.</li>
-          <li>Deployed containerised services to Amazon ECS and Amazon EKS.</li>
-          <li>Built and maintained CI/CD pipelines in GitLab CI.</li>
+          <li>Built Java and Spring backend services on AWS and used Apache Kafka for event streaming between services.</li>
+          <li>Deployed containerised services to Amazon ECS and Amazon EKS and maintained GitLab CI pipelines.</li>
         </ul>
       </article>
       <article class="role">
-        <header><h3>Earlier roles</h3><time>2010 – 2018</time></header>
+        <header><h3>Earlier roles</h3><span class="dates">2010 – 2018</span></header>
         <p class="title">Brasília, Brazil</p>
         <ul class="earlier">
-          <li><span><b>Logo IT</b> · Software Engineer</span><time>Jul 2017 – Dec 2018</time></li>
-          <li><span><b>Tarea Management</b> · Software Developer</span><time>Jul 2013 – Jul 2017</time><span class="note">Java EE, Oracle SOA Suite, Oracle Fusion Middleware</span></li>
-          <li><span><b>Stefanini</b> · Software QA Analyst</span><time>Feb 2012 – Jun 2013</time></li>
-          <li><span><b>RSI Informática</b> · Software QA Developer</span><time>Aug 2010 – Feb 2012</time></li>
+          <li><span><b>Logo IT</b> · Software Engineer</span><span class="dates">Jul 2017 – Dec 2018</span></li>
+          <li><span><b>Tarea Management</b> · Software Developer</span><span class="dates">Jul 2013 – Jul 2017</span><span class="note">Java EE, Oracle SOA Suite, Oracle Fusion Middleware</span></li>
+          <li><span><b>Stefanini</b> · Software QA Analyst</span><span class="dates">Feb 2012 – Jun 2013</span></li>
+          <li><span><b>RSI Informática</b> · Software QA Developer</span><span class="dates">Aug 2010 – Feb 2012</span></li>
         </ul>
       </article>
     </div>
@@ -369,11 +366,11 @@
     <h2 id="stack-title">Stack</h2>
     <dl class="stack">
       <div><dt>Languages</dt><dd>Scala<br>Java<br>Kotlin<br>Go<br>Python<br>TypeScript</dd></div>
-      <div><dt>Backend</dt><dd>http4s · Tapir<br>cats-effect · fs2<br>Akka · Apache Pekko<br>Spring Boot<br>REST · OpenAPI<br>gRPC · Protocol Buffers</dd></div>
+      <div><dt>Architecture and backend</dt><dd>System design<br>http4s · Tapir<br>cats-effect · fs2<br>Akka · Apache Pekko<br>Spring Boot<br>REST · OpenAPI<br>gRPC · Protocol Buffers</dd></div>
       <div><dt>Messaging and data</dt><dd>Apache Kafka · RabbitMQ<br>PostgreSQL · MongoDB<br>Elasticsearch<br>DynamoDB · Redis<br>pgvector · Neo4j</dd></div>
       <div><dt>Cloud and platform</dt><dd>AWS · Kubernetes<br>Helm · Argo CD<br>Terraform · Docker<br>GitHub Actions<br>Vault · Chef</dd></div>
       <div><dt>Observability</dt><dd>OpenTelemetry<br>Prometheus<br>Grafana</dd></div>
-      <div><dt>AI engineering</dt><dd>MCP servers · AI agents<br>Agentic workflows<br>RAG · fine-tuning<br>Claude Code</dd></div>
+      <div><dt>AI engineering</dt><dd>MCP gateways · servers<br>Agentic workflows<br>Tool authorization<br>RAG · fine-tuning<br>Claude Code</dd></div>
     </dl>
   </section>
 
@@ -390,7 +387,7 @@
     <h2 id="contact-title">Contact</h2>
     <div>
       <p class="big"><a href="mailto:sueder@dreuse.dev">sueder@dreuse.dev</a></p>
-      <p>Open to senior backend, platform and infrastructure roles on remote teams.</p>
+      <p>Open to senior roles in distributed systems, platform engineering and AI infrastructure.</p>
       <a class="download" href="sueder-morais-cv.pdf" download>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>
         Download CV <small>PDF</small>
